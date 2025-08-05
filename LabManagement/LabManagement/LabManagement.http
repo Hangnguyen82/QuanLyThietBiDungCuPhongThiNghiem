@@ -1,0 +1,10 @@
+@LabManagement_HostAddress = https://localhost:7019
+
+GET {{LabManagement_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
+
+GET {{LabManagement_HostAddress}}/api/chucvu
+
+###
