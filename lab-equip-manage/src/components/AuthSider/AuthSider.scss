@@ -1,0 +1,20 @@
+// AuthSider.scss
+.ant-layout-sider {
+  
+    background-color: #fcfcfc;
+    height: auto;
+    left: 0;
+    top: 10px;
+    bottom: 10px;
+
+    .ant-menu-submenu > .ant-menu > .ant-menu-item {
+      background-color: white; // Màu nền trắng cho các mục trong sub-menu
+      color: #000; // Đặt màu chữ là đen để tương phản tốt với nền trắng
+    
+      &:hover {
+        background-color: #f0f0f0; // Màu nền khi hover (nếu muốn)
+      }
+    }
+    
+  }
+

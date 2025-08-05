@@ -1,0 +1,27 @@
+.phieu-thanh-ly-container {
+    max-width: 800px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    padding: 20px;
+    background: #ffffff;
+    border: 1px solid hsl(0, 1%, 75%);
+    border-radius: 8px;
+    
+    h1 {
+      font-size: 30px; 
+      font-weight: 700; 
+      color: #3b85df; 
+      text-align: center; 
+      margin-bottom: 20px;
+    }
+  
+    .ant-form-item {
+      margin-bottom: 16px;
+    }
+  
+    .ant-btn {
+      width: 100%;
+    }
+  }
+  

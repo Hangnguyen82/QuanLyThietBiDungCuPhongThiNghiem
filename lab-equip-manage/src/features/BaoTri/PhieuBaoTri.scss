@@ -1,0 +1,45 @@
+.maintenance-container {
+  max-width: 600px;
+  margin: auto; // Căn giữa container trên và ngang
+  padding: 20px;
+  background-color: #ffffff; // Nền trắng cho form
+  border: 1px solid #ddd; // Đường viền cho form
+  border-radius: 8px; // Bo góc khung
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); // Hiệu ứng bóng nhẹ
+  
+  h1 {
+    text-align: center; // Căn giữa chữ
+    font-size: 24px; // Kích thước chữ
+    color: #007bff; // Màu xanh
+    font-weight: bold;
+    margin-bottom: 30px; // Khoảng cách giữa tiêu đề và form
+  }
+
+  .maintenance-form {
+    .ant-form-item {
+      margin-bottom: 20px; // Khoảng cách giữa các form item
+    }
+
+    label {
+      font-weight: 500;
+      float: left; // Căn trái (float left) cho nhãn
+      width: auto;
+    }
+
+    .ant-input,
+    .ant-input-number,
+    .ant-input-textarea {
+      border-radius: 4px; // Bo góc input
+    }
+
+    .ant-btn-primary {
+      width: 100%; // Nút rộng toàn dòng
+      background-color: #007bff;
+      border-color: #007bff;
+      &:hover {
+        background-color: #0056b3; // Màu khi hover
+        border-color: #0056b3;
+      }
+    }
+  }
+}

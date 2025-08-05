@@ -1,0 +1,38 @@
+.phieu-nhap-container {
+  border: 2px solid #bad4ed;  // Blue border around the container
+  padding: 20px;               // Add padding inside the container for spacing
+  border-radius: 8px;          // Rounded corners
+  background-color: #ffffff;   // Light background color for the container
+  width: 80%;                  // Adjust the width as needed
+  margin: 20px auto;           // Center the container and add margin on top and bottom
+
+  .ant-form {
+    width: 100%;               // Ensure form occupies full container width
+  }
+
+  h1 {
+    text-align: center;        // Center the title
+    font-weight: bold;         // Make the title bold
+    font-size: 36px;           // Larger font size for the title
+    color: #1890ff;            // Blue color for the title
+    margin-bottom: 20px;       // Adds space below the title
+  }
+
+  .ant-form-item {
+    margin-bottom: 16px;       // Adjust margin for form items
+  }
+
+  .ant-table {
+    margin-bottom: 20px;       // Adds space below the table
+  }
+
+  .ant-btn {
+    display: block;
+    margin: 16px auto;         // Center buttons and add margin
+    text-align: center;        // Ensures the button text is centered
+  }
+
+  .ant-btn-dashed {
+    margin-top: 20px;          // Adds margin for dashed button
+  }
+}

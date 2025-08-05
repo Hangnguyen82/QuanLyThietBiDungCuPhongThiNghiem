@@ -1,0 +1,122 @@
+
+.chitiet-register-container {
+  margin: 20px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+}
+
+.card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.info-section {
+  margin-bottom: 20px;
+}
+
+.info-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+  table-layout: fixed;
+}
+
+.info-table th, .info-table td {
+  padding: 8px 15px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.info-table th {
+  text-align: center;
+}
+
+.info-table td {
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.section-title {
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.custom-table {
+  margin-top: 20px;
+  border-radius: 8px;
+}
+
+.custom-table th, .custom-table td {
+  padding: 10px 15px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+.custom-table th {
+  color: white;
+}
+
+.custom-table tr:hover {
+  background-color: #f4f4f4;
+}
+
+.alert-box {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #f8d7da;
+  border-radius: 4px;
+  color: #721c24;
+  font-size: 14px;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    background-color: #0056b3;
+  }
+}
+
+@media (max-width: 768px) {
+  .chitiet-register-container {
+    padding: 10px;
+  }
+
+  .info-table, .custom-table {
+    font-size: 14px;
+  }
+
+  .info-table th, .info-table td {
+    padding: 5px 10px;
+  }
+
+  .custom-table th, .custom-table td {
+    padding: 8px 10px;
+  }
+  .ant-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .ant-col {
+    display: flex;
+    justify-content: center;
+  }
+}
+.btn-accept{
+  background-color:#007bff;
+}
+.btn-reject{
+  background-color: #721c24;
+  color: #f4f4f4;
+}

@@ -1,0 +1,139 @@
+.chitiet-proposal-container {
+  padding: 20px;
+  background-color: #f9f9f9;
+ .ant-typography 
+ {
+    font-size: 28px; 
+    font-weight: 700; 
+    color: #4a90e2; 
+    margin-bottom: 20px; 
+    text-align: center;
+    text-transform: uppercase; 
+}
+}
+
+.card {
+  .ant-card-body {
+    padding: 20px; /* Add padding for card content */
+  }
+
+  .ant-card {
+    border-radius: 10px; /* Rounded corners for the card */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for card */
+    background-color: #ffffff; /* Background color for the card */
+  }
+}
+
+.section-title {
+  color: #333; /* Default title color */
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  
+}
+
+.ant-typography {
+  margin-bottom: 15px; /* Extra margin for better spacing */
+}
+
+.ant-typography strong {
+  font-weight: bold; /* Strong emphasis on text */
+}
+
+.ant-typography .ant-typography-title {
+  font-size: 24px;
+  font-weight: 700; /* Bold title */
+  color: #4a90e2; /* Change title color */
+}
+
+.action-buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px; /* Space between elements */
+
+  .action-btns {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Space between buttons */
+  }
+
+  .action-btn {
+    width: 150px; /* Set width for buttons */
+    border-radius: 4px; /* Light rounded corners */
+    font-weight: bold; /* Bold text for buttons */
+    align-items: center;
+    margin-top: 10px;
+    transition: background-color 0.3s ease; /* Transition effect for background color */
+    text-align: center; /* Center text inside button */
+    padding: 10px; /* Add padding for buttons */
+    font-size: 14px; /* Font size for button text */
+  }
+
+  .accept {
+    background-color: #4caf50; /* Green background for accept button */
+    color: white;
+    &:hover {
+      background-color: #45a049; /* Darker green on hover */
+    }
+  }
+
+  .reject {
+    background-color: #f44336; /* Red background for reject button */
+    color: white;
+    &:hover {
+      background-color: #e53935; /* Darker red on hover */
+    }
+  }
+  .enter {
+    background-color: #3971da; /* Red background for reject button */
+    color: white;
+    margin: auto;
+    &:hover {
+      background-color: #1d72bc; /* Darker red on hover */
+    }
+  }
+
+
+  .back-btn {
+    background-color: #1890ff; /* Blue background for back button */
+    color: white;
+    &:hover {
+      background-color: #40a9ff; /* Lighter blue on hover */
+    }
+  }
+}
+
+.ant-list-item {
+  padding: 10px; /* Padding for list items */
+}
+
+.ant-list {
+  padding-left: 0; /* Remove default left padding */
+}
+
+.ant-list-item {
+  border-bottom: 1px solid #f0f0f0; /* Border under each item */
+}
+
+.ant-list-item:last-child {
+  border-bottom: none; /* Remove bottom border from last item */
+}
+
+/* For Modal */
+.ant-modal .ant-modal-header {
+  background-color: #f0f2f5; /* Light background for modal header */
+}
+
+.ant-modal-title {
+  color: #4a90e2; /* Change title color in modal */
+}
+
+.ant-input {
+  border-radius: 6px; /* Rounded corners for inputs */
+}
+
+.ant-input-textarea {
+  border-radius: 6px; /* Rounded corners for text area */
+  padding: 10px; /* Add padding to textarea */
+}
